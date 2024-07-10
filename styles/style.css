@@ -10,10 +10,10 @@ body {
     font-family: "Inter", sans-serif;
 }
 .banner-container{
-    width: 1478px;
+    width: 1459px;
     height: 635px; 
     
-    background-image: url(/assets/Hero-bg.png); 
+    background-image: url(../assets/Hero-bg.png); 
 }
 .banner-content{
     display: flex;
@@ -337,3 +337,89 @@ body {
 }
 
 /* my current target card ends */
+/* support section  start */
+.support-container{
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    margin-top: 47px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    
+
+}
+.support-content{
+    width: 1044px;
+    height: 186px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.support-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.support-text h1{
+    color: rgb(255, 255, 255);
+    
+    font-size: 32px;
+    font-weight: 700;
+}
+.support-text p{
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-feedback{
+    width: 684px;
+    height: 58px;
+   
+}
+#input{
+    
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    
+    
+   
+}
+#submit-btn{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#support-f-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+/* support section end */
