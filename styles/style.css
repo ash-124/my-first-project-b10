@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 *{
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Azeret Mono", monospace;
+    font-family: "Inter", sans-serif;
 }
 .banner-container{
     width: 1478px;
@@ -239,3 +239,101 @@ body {
     border-radius: 16px;
 }
 /* inspiration section ends here  */
+/* my current target card starts */
+.my-current-target-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.my-current-target-title{
+    width: 946px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.my-current-target-title h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+} 
+.my-current-target-title p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+}
+/* card style */
+.target-cards{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-no-1{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    
+}
+.card-content-1{
+    width: 284px;
+    height: 219px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.card-no-2{
+  
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-no-3{
+   
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+/* shared style */
+.primary-h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+.primary-p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.primary-btn a{
+    color: rgb(13, 19, 33);
+   
+}
+.primary-btn{
+    
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* my current target card ends */
