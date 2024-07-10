@@ -12,6 +12,10 @@
 body {
     font-family: "Inter", sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 /* banner styles start */
 .banner-container{
     width: 1459px;
