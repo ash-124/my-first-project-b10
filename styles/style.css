@@ -12,6 +12,7 @@
 body {
     font-family: "Inter", sans-serif;
 }
+/* banner styles start */
 .banner-container{
     width: 1459px;
     height: 635px; 
@@ -72,6 +73,7 @@ body {
     font-weight: 600; 
     text-decoration: none;
 }
+/* banner styles end */
 /* why development main section starts here  */
 
    .why-development-container{
