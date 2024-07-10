@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+/* html{
+    scroll;
+} */
 
 body {
     font-family: "Inter", sans-serif;
@@ -62,6 +65,12 @@ body {
 
     
   
+}
+.navigator a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600; 
+    text-decoration: none;
 }
 /* why development main section starts here  */
 
@@ -428,7 +437,6 @@ body {
 .footer-container{
     width: 1440px;
     height: 100px;
-    border: 2px solid red;
     margin-top: 80px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
@@ -439,7 +447,6 @@ body {
 .footer-content{
     width: 1140px;
     height: 36px;
-    border: 2px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
