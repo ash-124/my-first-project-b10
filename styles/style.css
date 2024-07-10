@@ -423,3 +423,32 @@ body {
     align-items: center;
 }
 /* support section end */
+
+/* footer section start */
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    border: 2px solid red;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    width: 1140px;
+    height: 36px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-icons{
+    width: 157.01px;
+    height: 36px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* footer section end */
