@@ -67,7 +67,7 @@ body {
 
    .why-development-container{
     width: 1140px;
-    height: auto;
+    height: 1395px;
    
     margin: 0 auto;
     margin-top: 74px;
@@ -77,10 +77,11 @@ body {
     padding: 50px 0;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    
    }
    .why-development-content{
     width: 946px;
-    height: 450px;
+    height: auto;
    
    
    
@@ -163,6 +164,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     box-sizing: border-box;
+    border: 1px solid black;
   
     opacity: 0.7;
     display: flex;
